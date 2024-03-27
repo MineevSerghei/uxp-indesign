@@ -61,7 +61,7 @@ app.doScript("PATH_TO_CALLED/called.idjs", myInDesign.ScriptLanguage.UXPSCRIPT, 
 ```js
 //called.idjs
 const script = require("uxp").script;
-consoel.log(script.args);
+console.log(script.args);
 ```
 
 ```
